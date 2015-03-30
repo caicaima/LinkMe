@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/emoj"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="表情" />
+
+        <Button
+            android:id="@+id/expand"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="语音" />
+
+        <EditText
+            android:id="@+id/chat_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="说点啥"
+            android:singleLine="false" />
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/sendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="发送" />
+</RelativeLayout>
