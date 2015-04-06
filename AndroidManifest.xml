@@ -17,18 +17,32 @@
     <application
         android:name="com.zhen.linkme.app.App"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.zhen.linkme.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.zhen.linkme.GetinActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+       <activity
+           android:name="com.zhen.linkme.MainActivity"
+           android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+       
+       <activity
+           android:name="com.zhen.linkme.RegisterActivity"
+           android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+       
+       <activity
+           android:name="com.zhen.linkme.MessageActivity"
+           android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        
     </application>
 
 </manifest>

@@ -2,7 +2,23 @@
 <resources>
 
     <string name="app_name">LinkMe</string>
-    <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string name="username">输入账号</string>
+    <string name="password">输入密码</string>
+    
+    <string name="camera_native">相册</string>
+    <string name="camera_pho">拍照</string>
+    <string name="notBtn">取消</string>
+    
+    <string name="new_reg">新用户注册</string>
+    
+    <string name="messages">会话</string>
+    <string name="contact">通讯录</string>
+    <string name="action_settings">Settings</string>
+    <string name="me">我</string>
+    <string name="discover">发现</string>
+    <string name="share">分享</string>
+    
 
 </resources>
