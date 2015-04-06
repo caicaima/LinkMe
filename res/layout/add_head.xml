@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- 从相册中选择图片做头像 -->
+    <Button
+        android:id="@+id/camera_native"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/camera_native"
+        android:background="#85ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#00A2E8"
+        android:textSize="18dp"/>
+    
+    <!-- 拍照选择头像 -->
+    <Button
+        android:id="@+id/camera_pho"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/camera_pho"
+        android:layout_marginTop="1dp"
+        android:background="#85ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#00A2E8"
+        android:textSize="18dp"/>
+    
+    <!-- 取消按钮 -->
+    <Button
+        android:id="@+id/notBtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/notBtn"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="#85ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#00A2E8"
+        android:textSize="18dp"/>
+    
+
+</LinearLayout>

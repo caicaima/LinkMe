@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="item_selected">#ff0000ff</color>
+   <color name="screen_background">#ffffff</color>
+   
+   
+    <color name="color_bottom_text_normal">#9da0a4</color>
+    <color name="color_bottom_text_press">#4f9ef6</color>
+   
+</resources>
