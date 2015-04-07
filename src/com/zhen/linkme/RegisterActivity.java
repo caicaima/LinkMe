@@ -87,7 +87,7 @@ public class RegisterActivity extends Activity {
 		case R.id.sure_login:
 			//立即注册--》跳到聊天界面
 			Intent intent_chat = new Intent(RegisterActivity.this,
-					MessageActivity.class);
+					BaseFragmentActivity.class);
 			startActivity(intent_chat);
 			
 			break;

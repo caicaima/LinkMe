@@ -23,6 +23,13 @@ import com.nostra13.universalimageloader.utils.StorageUtils;
  * 
  */
 public class App extends Application {
+	
+	
+	public static App ctx;
+
+	  public static App getInstance() {
+	    return ctx;
+	  }
 
 	/**
 	 * 1、初始化百度地图
@@ -57,12 +64,16 @@ public class App extends Application {
 	public void onCreate() {
 		// TODO Auto-generated method stub
 		super.onCreate();
+		
+		 ctx = this;
+		
 		AVOSCloud.initialize(this,
 				"mccobk3aohfmpgjy5nitcei77cshb516itg4bsr0ymo77gbj",
 				"ikq6p2f14cp8lv79pk6o4mhd1o5lqnouf0y18qaf4ai2srmp");
 
 		initImageLoader(this);
-		initBDMap();
+		
+//		initBDMap();
 		AVAnalytics.setAnalyticsEnabled(false);
 	}
 }

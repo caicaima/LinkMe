@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="11"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -56,7 +56,27 @@
            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
        
        <activity
-           android:name="com.zhen.linkme.MessageActivity"
+           android:name="com.zhen.linkme.BaseFragmentActivity"
+           android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+       
+       <activity
+           android:name="com.zhen.linkme.fragment.ContactFragment"
+           android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+       
+       <activity
+           android:name="com.zhen.linkme.fragment.ConvFragment"
+           android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+       
+       <activity
+           android:name="com.zhen.linkme.fragment.DiscoverFragment"
+           android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+       
+       <activity
+           android:name="com.zhen.linkme.fragment.MySpaceFragment"
+           android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+       
+       <activity
+           android:name="com.zhen.linkme.fragment.ShareFragment"
            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
         
     </application>

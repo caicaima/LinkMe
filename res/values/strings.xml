@@ -20,5 +20,10 @@
     <string name="discover">发现</string>
     <string name="share">分享</string>
     
+    <string name="password_can_not_null">密码不能为空</string>
+    <string name="username_cannot_null">用户名不能为空</string>
+    
+    <string name="hardLoading">努力加载中...</string>
+    
 
 </resources>

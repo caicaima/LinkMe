@@ -4,12 +4,12 @@ import com.avos.avoscloud.AVInstallation;
 import com.avos.avoscloud.AVUser;
 
 public class User {
-	private static final String USERNAME = "username";
-	private static final String PASSWORD = "password";
-	private static final String AVATAR = "avatar";
-	private static final String INSTALLATION = "installation";
-	private static final String GENDER = "gender";
-	private static final String LOCATION = "location";
+	public static final String USERNAME = "username";
+	public static final String PASSWORD = "password";
+	public static final String AVATAR = "avatar";
+	public static final String INSTALLATION = "installation";
+	public static final String GENDER = "gender";
+	public static final String LOCATION = "location";
 
 	/**
 	 * 定义 性别为枚举类型
